@@ -35,3 +35,4 @@ C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResourc
 C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
 C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
 C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.penningMeesterForm.resources
