@@ -12,9 +12,17 @@ namespace barSysteem
 {
     public partial class Form1 : Form
     {
+        Account account = new Account();
         public Form1()
         {
             InitializeComponent();
+            account.AccountChanging += Account_AccountChanging;
+        }
+        private void Account_AccountChanging(object sender, AccountChangingEventArgs e)
+        {
+            nameLabel.Text = account.name;
+            saldoLabel.Text = account.saldo.ToString();
+            rolLabel.Text = account.role;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -100,6 +108,12 @@ namespace barSysteem
             alcoholicPanel.Visible = false;
             juicesPanel.Visible = false;
             snacksPanel.Visible = true;
+        }
+
+        private void LogInButton_Click(object sender, EventArgs e)
+        {
+            LoginScreen form = new LoginScreen(account);
+            form.Show();
         }
     }
 }
