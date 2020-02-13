@@ -1,0 +1,9 @@
+C:\BarSystem\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+C:\BarSystem\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+C:\BarSystem\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.Form1.resources
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
