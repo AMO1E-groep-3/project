@@ -712,9 +712,9 @@
             this.label45.Location = new System.Drawing.Point(124, 333);
             this.label45.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(104, 42);
+            this.label45.Size = new System.Drawing.Size(106, 42);
             this.label45.TabIndex = 1;
-            this.label45.Text = "Cock";
+            this.label45.Text = "Coke";
             // 
             // pictureBox20
             // 
@@ -1516,7 +1516,7 @@
             this.fantaPictureBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("fantaPictureBox.BackgroundImage")));
             this.fantaPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.fantaPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.fantaPictureBox.Location = new System.Drawing.Point(98, 60);
+            this.fantaPictureBox.Location = new System.Drawing.Point(96, 60);
             this.fantaPictureBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.fantaPictureBox.Name = "fantaPictureBox";
             this.fantaPictureBox.Size = new System.Drawing.Size(256, 248);
