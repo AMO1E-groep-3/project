@@ -29,22 +29,25 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bestelButton = new System.Windows.Forms.Button();
-            this.unknownButton = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prijs = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.voorraad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bestelButton = new System.Windows.Forms.Button();
+            this.unknownButton = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.bananen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.saldo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -59,8 +62,25 @@
             this.dataGridView1.Size = new System.Drawing.Size(345, 499);
             this.dataGridView1.TabIndex = 0;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "naam product";
+            this.Column1.Name = "Column1";
+            // 
+            // prijs
+            // 
+            this.prijs.HeaderText = "prijs";
+            this.prijs.Name = "prijs";
+            // 
+            // voorraad
+            // 
+            this.voorraad.HeaderText = "voorraad";
+            this.voorraad.Name = "voorraad";
+            // 
             // bestelButton
             // 
+            this.bestelButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bestelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bestelButton.Location = new System.Drawing.Point(195, 526);
             this.bestelButton.Name = "bestelButton";
             this.bestelButton.Size = new System.Drawing.Size(144, 42);
@@ -70,6 +90,8 @@
             // 
             // unknownButton
             // 
+            this.unknownButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.unknownButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.unknownButton.Location = new System.Drawing.Point(28, 526);
             this.unknownButton.Name = "unknownButton";
             this.unknownButton.Size = new System.Drawing.Size(144, 42);
@@ -89,39 +111,6 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(442, 440);
             this.dataGridView2.TabIndex = 16;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(833, 526);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 42);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Add User";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(545, 528);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 42);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Delete User";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "naam product";
-            this.Column1.Name = "Column1";
-            // 
-            // prijs
-            // 
-            this.prijs.HeaderText = "prijs";
-            this.prijs.Name = "prijs";
-            // 
-            // voorraad
-            // 
-            this.voorraad.HeaderText = "voorraad";
-            this.voorraad.Name = "voorraad";
             // 
             // bananen
             // 
@@ -143,9 +132,33 @@
             this.rol.HeaderText = "rol";
             this.rol.Name = "rol";
             // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(833, 526);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(130, 42);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Add User";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(545, 528);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(134, 42);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Delete User";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(574, 12);
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(14, 33);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 42);
             this.button1.TabIndex = 19;
@@ -154,30 +167,54 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(800, 12);
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(14, 98);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(134, 42);
             this.button4.TabIndex = 20;
             this.button4.Text = "Inkopen";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Location = new System.Drawing.Point(363, 186);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(165, 160);
+            this.groupBox1.TabIndex = 21;
+            this.groupBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(413, 182);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 23);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Schermen";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // bedrijfsleider
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(995, 582);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.unknownButton);
             this.Controls.Add(this.bestelButton);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.groupBox1);
             this.Name = "bedrijfsleider";
             this.Text = "bedrijfsleider";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -199,5 +236,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn rol;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
