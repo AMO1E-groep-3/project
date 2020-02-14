@@ -1,0 +1,38 @@
+C:\BarSystem\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+C:\BarSystem\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+C:\BarSystem\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.Form1.resources
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+C:\BarSystem\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.Form1.resources
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CoreCompileInputs.cache
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.LoginScreen.resources
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
+C:\git\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+C:\git\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+C:\git\project\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+C:\git\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
+C:\git\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.Form1.resources
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.LoginScreen.resources
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.penningMeesterForm.resources
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+C:\git\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.penningMeesterForm.resources

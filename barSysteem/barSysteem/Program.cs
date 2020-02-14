@@ -11,6 +11,7 @@ namespace barSysteem
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// // Haha extra comment
         [STAThread]
         static void Main()
         {
