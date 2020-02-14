@@ -46,11 +46,10 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(13, 31);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(37, 27);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 102;
-            this.dataGridView1.Size = new System.Drawing.Size(333, 423);
+            this.dataGridView1.Size = new System.Drawing.Size(343, 407);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -74,11 +73,10 @@
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.Column3});
-            this.dataGridView2.Location = new System.Drawing.Point(354, 31);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Location = new System.Drawing.Point(397, 27);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 102;
-            this.dataGridView2.Size = new System.Drawing.Size(584, 423);
+            this.dataGridView2.Size = new System.Drawing.Size(548, 499);
             this.dataGridView2.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -105,10 +103,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(2521, 39);
-            this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button1.Location = new System.Drawing.Point(945, 16);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 141);
+            this.button1.Size = new System.Drawing.Size(65, 59);
             this.button1.TabIndex = 2;
             this.button1.Text = "⟳";
             this.button1.UseVisualStyleBackColor = true;
@@ -116,14 +113,13 @@
             // 
             // PenningMeesterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(2711, 1381);
+            this.ClientSize = new System.Drawing.Size(1015, 492);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PenningMeesterForm";
             this.Text = "penningMeesterForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
