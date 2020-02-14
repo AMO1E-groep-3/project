@@ -57,11 +57,10 @@
             this.Column1,
             this.prijs,
             this.voorraad});
-            this.dataGridView1.Location = new System.Drawing.Point(32, 29);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 102;
-            this.dataGridView1.Size = new System.Drawing.Size(920, 1190);
+            this.dataGridView1.Size = new System.Drawing.Size(345, 499);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -89,10 +88,9 @@
             // 
             this.bestelButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bestelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bestelButton.Location = new System.Drawing.Point(520, 1254);
-            this.bestelButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.bestelButton.Location = new System.Drawing.Point(195, 526);
             this.bestelButton.Name = "bestelButton";
-            this.bestelButton.Size = new System.Drawing.Size(384, 100);
+            this.bestelButton.Size = new System.Drawing.Size(144, 42);
             this.bestelButton.TabIndex = 10;
             this.bestelButton.Text = "Add Product";
             this.bestelButton.UseVisualStyleBackColor = true;
@@ -101,10 +99,9 @@
             // 
             this.unknownButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.unknownButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.unknownButton.Location = new System.Drawing.Point(75, 1254);
-            this.unknownButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.unknownButton.Location = new System.Drawing.Point(28, 526);
             this.unknownButton.Name = "unknownButton";
-            this.unknownButton.Size = new System.Drawing.Size(384, 100);
+            this.unknownButton.Size = new System.Drawing.Size(144, 42);
             this.unknownButton.TabIndex = 11;
             this.unknownButton.Text = "Delete Product";
             this.unknownButton.UseVisualStyleBackColor = true;
@@ -117,11 +114,10 @@
             this.email,
             this.saldo,
             this.rol});
-            this.dataGridView2.Location = new System.Drawing.Point(1424, 169);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.dataGridView2.Location = new System.Drawing.Point(534, 71);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 102;
-            this.dataGridView2.Size = new System.Drawing.Size(1179, 1049);
+            this.dataGridView2.Size = new System.Drawing.Size(442, 440);
             this.dataGridView2.TabIndex = 16;
             // 
             // bananen
@@ -156,10 +152,9 @@
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(2221, 1254);
-            this.button2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button2.Location = new System.Drawing.Point(833, 526);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(347, 100);
+            this.button2.Size = new System.Drawing.Size(130, 42);
             this.button2.TabIndex = 17;
             this.button2.Text = "Add User";
             this.button2.UseVisualStyleBackColor = true;
@@ -168,10 +163,9 @@
             // 
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(1453, 1259);
-            this.button3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button3.Location = new System.Drawing.Point(545, 528);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(357, 100);
+            this.button3.Size = new System.Drawing.Size(134, 42);
             this.button3.TabIndex = 18;
             this.button3.Text = "Delete User";
             this.button3.UseVisualStyleBackColor = true;
@@ -180,10 +174,9 @@
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(37, 79);
-            this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button1.Location = new System.Drawing.Point(14, 33);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(357, 100);
+            this.button1.Size = new System.Drawing.Size(134, 42);
             this.button1.TabIndex = 19;
             this.button1.Text = "Penningmeester";
             this.button1.UseVisualStyleBackColor = true;
@@ -193,10 +186,9 @@
             // 
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(37, 234);
-            this.button4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button4.Location = new System.Drawing.Point(14, 98);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(357, 100);
+            this.button4.Size = new System.Drawing.Size(134, 42);
             this.button4.TabIndex = 20;
             this.button4.Text = "Inkopen";
             this.button4.UseVisualStyleBackColor = true;
@@ -206,31 +198,29 @@
             // 
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(968, 444);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.groupBox1.Location = new System.Drawing.Point(363, 186);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.groupBox1.Size = new System.Drawing.Size(440, 382);
+            this.groupBox1.Size = new System.Drawing.Size(165, 160);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1101, 434);
-            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label2.Location = new System.Drawing.Point(413, 182);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 55);
+            this.label2.Size = new System.Drawing.Size(63, 23);
             this.label2.TabIndex = 23;
             this.label2.Text = "Schermen";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bedrijfsleider
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(2653, 1388);
+            this.ClientSize = new System.Drawing.Size(722, 445);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -239,7 +229,6 @@
             this.Controls.Add(this.bestelButton);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "bedrijfsleider";
             this.Text = "bedrijfsleider";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
