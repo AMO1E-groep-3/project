@@ -115,5 +115,14 @@ namespace barSysteem
             LoginScreen form = new LoginScreen(account);
             form.Show();
         }
+
+        private void AdminButton_Click(object sender, EventArgs e)
+        {
+            if (account.role == "Admin")
+            {
+                PenningMeesterForm form = new PenningMeesterForm();
+                form.Show();
+            }
+        }
     }
 }
