@@ -105,10 +105,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(946, 1);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(2521, 39);
+            this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 73);
+            this.button1.Size = new System.Drawing.Size(173, 141);
             this.button1.TabIndex = 2;
             this.button1.Text = "⟳";
             this.button1.UseVisualStyleBackColor = true;
@@ -118,7 +118,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1038, 493);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(2711, 1381);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
