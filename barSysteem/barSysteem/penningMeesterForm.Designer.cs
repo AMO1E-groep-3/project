@@ -46,11 +46,11 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(99, 64);
+            this.dataGridView1.Location = new System.Drawing.Point(17, 64);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 102;
-            this.dataGridView1.Size = new System.Drawing.Size(915, 971);
+            this.dataGridView1.Size = new System.Drawing.Size(997, 1191);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
