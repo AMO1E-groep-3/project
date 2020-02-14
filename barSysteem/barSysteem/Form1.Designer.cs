@@ -623,7 +623,7 @@
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(44, 18);
             this.label45.TabIndex = 1;
-            this.label45.Text = "Coke";
+            this.label45.Text = "Cock";
             // 
             // alcoholicPanel
             // 
