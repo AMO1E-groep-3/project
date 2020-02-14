@@ -21,14 +21,14 @@ namespace barSysteem
         public byte freeDrinks { get; set; }
         [JsonProperty("saldo")]
         public decimal saldo { get; set; }
-        [JsonProperty("rol")]
+        [JsonProperty("role")]
         public string role { get; set; }
 
         public void AccountChange(int id)
         {
             //api to set every var with a value
 
-            string url = "http://localhost/all/phpLes/project/checkId.php?id="+id+"";
+            string url = "http://biko.famschouten.com/project/checkId.php?id=" + id+"";
 
             string API_URL = url;
 
