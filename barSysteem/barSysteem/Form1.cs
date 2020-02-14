@@ -120,8 +120,9 @@ namespace barSysteem
         {
             if (account.role == "Admin")
             {
-                PenningMeesterForm form = new PenningMeesterForm();
+                bedrijfsleider form = new bedrijfsleider();
                 form.Show();
+                
             }
         }
     }

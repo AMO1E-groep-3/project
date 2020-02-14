@@ -16,5 +16,17 @@ namespace barSysteem
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            PenningMeesterForm form = new PenningMeesterForm();
+            form.Show();
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            InkopenForm form = new InkopenForm();
+            form.Show();
+        }
     }
 }
