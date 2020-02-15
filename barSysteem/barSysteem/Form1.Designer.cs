@@ -1,6 +1,6 @@
 ﻿namespace barSysteem
 {
-    partial class Form1
+    partial class mainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.categoriesPanel = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -141,6 +141,7 @@
             this.adminButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.logInButton = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.categoriesPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -296,7 +297,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(4, 345);
+            this.label1.Location = new System.Drawing.Point(4, 351);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 20);
@@ -308,7 +309,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(4, 374);
+            this.label2.Location = new System.Drawing.Point(4, 384);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 20);
@@ -320,7 +321,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(4, 403);
+            this.label3.Location = new System.Drawing.Point(4, 417);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 20);
@@ -332,7 +333,7 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLabel.Location = new System.Drawing.Point(73, 345);
+            this.nameLabel.Location = new System.Drawing.Point(73, 351);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(21, 20);
@@ -344,7 +345,7 @@
             // 
             this.saldoLabel.AutoSize = true;
             this.saldoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saldoLabel.Location = new System.Drawing.Point(73, 374);
+            this.saldoLabel.Location = new System.Drawing.Point(73, 384);
             this.saldoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.saldoLabel.Name = "saldoLabel";
             this.saldoLabel.Size = new System.Drawing.Size(21, 20);
@@ -356,7 +357,7 @@
             // 
             this.rolLabel.AutoSize = true;
             this.rolLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rolLabel.Location = new System.Drawing.Point(73, 403);
+            this.rolLabel.Location = new System.Drawing.Point(73, 417);
             this.rolLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.rolLabel.Name = "rolLabel";
             this.rolLabel.Size = new System.Drawing.Size(21, 20);
@@ -377,7 +378,7 @@
             this.itemListDataGridView.Name = "itemListDataGridView";
             this.itemListDataGridView.RowHeadersWidth = 51;
             this.itemListDataGridView.RowTemplate.Height = 24;
-            this.itemListDataGridView.Size = new System.Drawing.Size(434, 144);
+            this.itemListDataGridView.Size = new System.Drawing.Size(434, 173);
             this.itemListDataGridView.TabIndex = 6;
             this.itemListDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -1488,7 +1489,7 @@
             // 
             this.adminButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("adminButton.BackgroundImage")));
             this.adminButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.adminButton.Location = new System.Drawing.Point(2, 277);
+            this.adminButton.Location = new System.Drawing.Point(2, 279);
             this.adminButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.adminButton.Name = "adminButton";
             this.adminButton.Size = new System.Drawing.Size(56, 60);
@@ -1502,7 +1503,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(702, 357);
+            this.button1.Location = new System.Drawing.Point(702, 336);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 55);
@@ -1516,7 +1517,7 @@
             this.logInButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.logInButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logInButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.logInButton.Location = new System.Drawing.Point(64, 277);
+            this.logInButton.Location = new System.Drawing.Point(64, 279);
             this.logInButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.logInButton.Name = "logInButton";
             this.logInButton.Size = new System.Drawing.Size(185, 60);
@@ -1524,7 +1525,20 @@
             this.logInButton.UseVisualStyleBackColor = true;
             this.logInButton.Click += new System.EventHandler(this.LogInButton_Click);
             // 
-            // Form1
+            // button8
+            // 
+            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button8.Location = new System.Drawing.Point(703, 397);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(170, 55);
+            this.button8.TabIndex = 2;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1542,13 +1556,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.logInButton);
             this.Controls.Add(this.categoriesPanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "mainForm";
+            this.Text = "BarSysteem";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.categoriesPanel.ResumeLayout(false);
             this.categoriesPanel.PerformLayout();
@@ -1703,6 +1718,7 @@
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.Button button8;
     }
 }
 
