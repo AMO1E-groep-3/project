@@ -17,7 +17,7 @@ namespace barSysteem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1()); // Gebruik dit om een ander form te runnen wanneer de applicatie opstart
+            Application.Run(new mainForm()); // Gebruik dit om een ander form te runnen wanneer de applicatie opstart
         }
     }
 }

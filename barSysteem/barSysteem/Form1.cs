@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace barSysteem
 {
-    public partial class Form1 : Form
+    public partial class mainForm : Form
     {
         Account account = new Account();
-        public Form1()
+        public mainForm()
         {
             InitializeComponent();
             account.AccountChanging += Account_AccountChanging;
