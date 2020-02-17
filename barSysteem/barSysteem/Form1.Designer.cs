@@ -141,7 +141,6 @@
             this.adminButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.logInButton = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.categoriesPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -1525,26 +1524,13 @@
             this.logInButton.UseVisualStyleBackColor = true;
             this.logInButton.Click += new System.EventHandler(this.LogInButton_Click);
             // 
-            // button8
-            // 
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(703, 397);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(170, 55);
-            this.button8.TabIndex = 2;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // mainForm
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(884, 464);
+            this.ClientSize = new System.Drawing.Size(924, 464);
             this.Controls.Add(this.flowLayoutPanel);
             this.Controls.Add(this.totalPriceLabel);
             this.Controls.Add(this.Label);
