@@ -163,12 +163,14 @@ form label {
 input[type=text] {
     border-radius: 10px;
     border: 1px solid grey;
+    padding: 8px 12px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 input[type=number] {
     border-radius: 10px;
     border: 1px solid grey;
+    padding: 8px 12px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
