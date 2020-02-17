@@ -12,7 +12,7 @@ namespace barSysteem
     {
         [JsonProperty("id")]
         public int id { get; set; }
-        [JsonProperty("products")]
+        [JsonProperty("producten")]
         public string products { get; set; }
         [JsonProperty("totalPrice")]
         public decimal price { get; set; }

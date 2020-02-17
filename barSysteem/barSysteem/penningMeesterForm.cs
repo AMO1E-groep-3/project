@@ -25,12 +25,11 @@ namespace barSysteem
 
             dataGridView2.Rows.Clear();
             int i = 0;
-            string API_URL = "http://biko.famschouten.com/project/getReceipt.php";
+            string API_URL = "http://127.0.0.1/project/getReceipt.php";
 
             WebClient client = new WebClient();
             string json = client.DownloadString(API_URL);
-            try
-            {
+
                 var objects = JArray.Parse(json); // parse as array  
                 foreach (var item in objects)
                 {
@@ -42,12 +41,7 @@ namespace barSysteem
                     dataGridView2.Rows[i].Cells[2].Value = product.date.ToString();
                     i++;
                 }
-            }
-            catch 
-            {
 
-                
-            }
                 
 
         }
