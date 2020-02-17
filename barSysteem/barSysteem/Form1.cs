@@ -121,8 +121,7 @@ namespace barSysteem
             if (account.role == "Admin")
             {
                 bedrijfsleider form = new bedrijfsleider();
-                form.Show();
-                
+                form.Show();                
             }
         }
     }
