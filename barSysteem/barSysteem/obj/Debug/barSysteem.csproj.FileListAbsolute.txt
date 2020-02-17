@@ -11,7 +11,6 @@ C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\barSystee
 C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe
 C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
 C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
-C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.Form1.resources
 C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
 C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
 C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CoreCompileInputs.cache
@@ -87,3 +86,4 @@ C:\Users\jamil\OneDrive\Desktop\barsys\project\barSysteem\barSysteem\obj\Debug\b
 C:\Users\jamil\OneDrive\Desktop\barsys\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
 C:\Users\jamil\OneDrive\Desktop\barsys\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
 C:\Users\jamil\OneDrive\Desktop\barsys\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
