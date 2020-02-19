@@ -20,9 +20,9 @@ namespace barSysteem
         }
         private void Account_AccountChanging(object sender, AccountChangingEventArgs e)
         {
-            nameLabel.Text = account.name;
-            saldoLabel.Text = account.saldo.ToString();
-            rolLabel.Text = account.role;
+            nameLabel.Text = account.Name;
+            saldoLabel.Text = account.Saldo.ToString();
+            rolLabel.Text = account.Role;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -118,7 +118,7 @@ namespace barSysteem
 
         private void AdminButton_Click(object sender, EventArgs e)
         {
-            if (account.role == "Admin")
+            if (account.Role == "Admin")
             {
                 bedrijfsleider form = new bedrijfsleider();
                 form.Show();                

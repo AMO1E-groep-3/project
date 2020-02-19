@@ -36,9 +36,9 @@ namespace barSysteem
 
                     Receipt product = JsonConvert.DeserializeObject<Receipt>(item.ToString());
                     dataGridView2.Rows.Add();
-                    dataGridView2.Rows[i].Cells[0].Value = product.products.ToString();
-                    dataGridView2.Rows[i].Cells[1].Value = product.price.ToString();
-                    dataGridView2.Rows[i].Cells[2].Value = product.date.ToString();
+                    dataGridView2.Rows[i].Cells[0].Value = product.Products.ToString();
+                    dataGridView2.Rows[i].Cells[1].Value = product.Price.ToString();
+                    dataGridView2.Rows[i].Cells[2].Value = product.Date.ToString();
                     i++;
                 }
 
