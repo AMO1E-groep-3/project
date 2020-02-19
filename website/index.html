@@ -31,14 +31,14 @@
         </header>
         <main>
             <div class="container flex flex-center">
-                <form action="backend.php" method="POST">
+                <form action="php/backend.php" method="POST">
                     <label for="email">Vul hier uw code in:</label>
                     <input type="text" id="email" name="email">
 
                     <label for="saldo">Voer hier uw saldo in:</label>
-                    <input type="number" id="saldo" name="saldo">
+                    <input type="number" id="saldo" name="saldo" step="0.01" min="0" max="10">
 
-                    <input type="submit" value="Submit">
+                    <input type="submit " value="Submit ">
                 </form>
             </div>
         </main>
@@ -46,13 +46,13 @@
 
         </footer>
     </div>
-    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/vendor/modernizr-3.8.0.min.js "></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
     <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js "><\/script>')
     </script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/plugins.js "></script>
+    <script src="js/main.js "></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
@@ -65,7 +65,7 @@
         ga('set', 'transport', 'beacon');
         ga('send', 'pageview')
     </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script src="https://www.google-analytics.com/analytics.js " async></script>
 </body>
 
 </html>
