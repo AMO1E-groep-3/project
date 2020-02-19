@@ -103,4 +103,23 @@ C:\git\! barsysteemproject\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.Cor
 C:\git\! barsysteemproject\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
 C:\git\! barsysteemproject\barSysteem\barSysteem\obj\Debug\barSysteem.exe
 C:\git\! barsysteemproject\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+<<<<<<< HEAD
 C:\Users\brae3\OneDrive\Desktop\zooooooom\oefenen met git\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
+=======
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.bedrijfsleider.resources
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.InkopenForm.resources
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.LoginScreen.resources
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.PenningMeesterForm.resources
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Periode 3\Barsyteem\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+>>>>>>> master

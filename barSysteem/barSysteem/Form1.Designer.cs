@@ -1714,12 +1714,15 @@
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox23;
+<<<<<<< HEAD
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn prijs;
         private System.Windows.Forms.DataGridViewTextBoxColumn aantal;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+=======
+>>>>>>> master
     }
 }
 

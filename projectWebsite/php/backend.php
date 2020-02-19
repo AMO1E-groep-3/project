@@ -1,5 +1,5 @@
 <?php
 
-echo "hallo allemaal";
+echo "dit is de backend php";
 
 ?>
