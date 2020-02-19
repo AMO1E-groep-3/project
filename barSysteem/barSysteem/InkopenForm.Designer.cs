@@ -39,6 +39,8 @@
             this.button_removeProduct = new System.Windows.Forms.Button();
             this.label_supply = new System.Windows.Forms.Label();
             this.label_sortBy = new System.Windows.Forms.Label();
+            this.textBox_search = new System.Windows.Forms.TextBox();
+            this.label_search = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_voorraad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_bestellen)).BeginInit();
             this.SuspendLayout();
@@ -46,8 +48,6 @@
             // dataGridView_voorraad
             // 
             this.dataGridView_voorraad.AccessibleName = "voorraadGridView";
-            this.dataGridView_voorraad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView_voorraad.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_voorraad.Location = new System.Drawing.Point(131, 141);
             this.dataGridView_voorraad.Name = "dataGridView_voorraad";
@@ -56,8 +56,6 @@
             // 
             // dataGridView_bestellen
             // 
-            this.dataGridView_bestellen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView_bestellen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_bestellen.Location = new System.Drawing.Point(693, 141);
             this.dataGridView_bestellen.Name = "dataGridView_bestellen";
@@ -66,8 +64,6 @@
             // 
             // label_bestellen
             // 
-            this.label_bestellen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label_bestellen.AutoSize = true;
             this.label_bestellen.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.label_bestellen.Location = new System.Drawing.Point(688, 42);
@@ -78,8 +74,6 @@
             // 
             // comboBox_voorraadSortering
             // 
-            this.comboBox_voorraadSortering.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.comboBox_voorraadSortering.FormattingEnabled = true;
             this.comboBox_voorraadSortering.Items.AddRange(new object[] {
             "Amount",
@@ -94,8 +88,6 @@
             // 
             // button_buyProducts
             // 
-            this.button_buyProducts.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.button_buyProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.button_buyProducts.Location = new System.Drawing.Point(891, 334);
             this.button_buyProducts.Name = "button_buyProducts";
@@ -106,8 +98,6 @@
             // 
             // label_totalPrice
             // 
-            this.label_totalPrice.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label_totalPrice.AutoSize = true;
             this.label_totalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label_totalPrice.Location = new System.Drawing.Point(688, 343);
@@ -118,8 +108,6 @@
             // 
             // label_totalVariable
             // 
-            this.label_totalVariable.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label_totalVariable.AutoSize = true;
             this.label_totalVariable.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label_totalVariable.Location = new System.Drawing.Point(769, 343);
@@ -130,8 +118,6 @@
             // 
             // button_addProduct
             // 
-            this.button_addProduct.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.button_addProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.button_addProduct.Location = new System.Drawing.Point(693, 104);
             this.button_addProduct.Name = "button_addProduct";
@@ -142,8 +128,6 @@
             // 
             // button_removeProduct
             // 
-            this.button_removeProduct.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.button_removeProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.button_removeProduct.Location = new System.Drawing.Point(802, 104);
             this.button_removeProduct.Name = "button_removeProduct";
@@ -154,8 +138,6 @@
             // 
             // label_supply
             // 
-            this.label_supply.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label_supply.AutoSize = true;
             this.label_supply.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.label_supply.Location = new System.Drawing.Point(126, 42);
@@ -166,8 +148,6 @@
             // 
             // label_sortBy
             // 
-            this.label_sortBy.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label_sortBy.AutoSize = true;
             this.label_sortBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label_sortBy.Location = new System.Drawing.Point(127, 104);
@@ -176,11 +156,30 @@
             this.label_sortBy.TabIndex = 10;
             this.label_sortBy.Text = "Sort by:";
             // 
+            // textBox_search
+            // 
+            this.textBox_search.Location = new System.Drawing.Point(240, 78);
+            this.textBox_search.Name = "textBox_search";
+            this.textBox_search.Size = new System.Drawing.Size(220, 20);
+            this.textBox_search.TabIndex = 11;
+            // 
+            // label_search
+            // 
+            this.label_search.AutoSize = true;
+            this.label_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label_search.Location = new System.Drawing.Point(127, 78);
+            this.label_search.Name = "label_search";
+            this.label_search.Size = new System.Drawing.Size(64, 20);
+            this.label_search.TabIndex = 12;
+            this.label_search.Text = "Search:";
+            // 
             // InkopenForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1106, 601);
+            this.Controls.Add(this.label_search);
+            this.Controls.Add(this.textBox_search);
             this.Controls.Add(this.label_sortBy);
             this.Controls.Add(this.label_supply);
             this.Controls.Add(this.button_removeProduct);
@@ -214,5 +213,7 @@
         private System.Windows.Forms.Button button_removeProduct;
         private System.Windows.Forms.Label label_supply;
         private System.Windows.Forms.Label label_sortBy;
+        private System.Windows.Forms.TextBox textBox_search;
+        private System.Windows.Forms.Label label_search;
     }
 }

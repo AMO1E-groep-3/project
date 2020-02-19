@@ -61,22 +61,22 @@ namespace barSysteem {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Boolean similar to True.
+        /// </summary>
+        public static bool aantal_UserAddedColumn {
+            get {
+                object obj = ResourceManager.GetObject("aantal.UserAddedColumn", resourceCulture);
+                return ((bool)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap adminButton_BackgroundImage {
             get {
                 object obj = ResourceManager.GetObject("adminButton.BackgroundImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Boolean similar to True.
-        /// </summary>
-        public static bool Amount_UserAddedColumn {
-            get {
-                object obj = ResourceManager.GetObject("Amount.UserAddedColumn", resourceCulture);
-                return ((bool)(obj));
             }
         }
         
@@ -113,9 +113,9 @@ namespace barSysteem {
         /// <summary>
         ///   Looks up a localized resource of type System.Boolean similar to True.
         /// </summary>
-        public static bool no_UserAddedColumn {
+        public static bool name_UserAddedColumn {
             get {
-                object obj = ResourceManager.GetObject("no.UserAddedColumn", resourceCulture);
+                object obj = ResourceManager.GetObject("name.UserAddedColumn", resourceCulture);
                 return ((bool)(obj));
             }
         }
@@ -313,19 +313,9 @@ namespace barSysteem {
         /// <summary>
         ///   Looks up a localized resource of type System.Boolean similar to True.
         /// </summary>
-        public static bool price_UserAddedColumn {
+        public static bool prijs_UserAddedColumn {
             get {
-                object obj = ResourceManager.GetObject("price.UserAddedColumn", resourceCulture);
-                return ((bool)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Boolean similar to True.
-        /// </summary>
-        public static bool product_UserAddedColumn {
-            get {
-                object obj = ResourceManager.GetObject("product.UserAddedColumn", resourceCulture);
+                object obj = ResourceManager.GetObject("prijs.UserAddedColumn", resourceCulture);
                 return ((bool)(obj));
             }
         }

@@ -124,5 +124,15 @@ namespace barSysteem
                 form.Show();                
             }
         }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

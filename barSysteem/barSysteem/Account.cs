@@ -30,8 +30,7 @@ namespace barSysteem
         public void AccountChange(int id)
         {
             //api to set every var with a value
-
-            string url = "http://127.0.0.1/project/checkId.php?id=" + id+"";
+            string url = "http://biko.famschouten.com/project/checkId.php?id=" + id+"";
 
             string API_URL = url;
 
@@ -69,6 +68,8 @@ namespace barSysteem
         }
     }
     public class AccountChangingEventArgs : EventArgs {
-        public bool Handled { get; set; }       
+        public bool Handled { get; set; }
+
+        
     }
 }

@@ -23,9 +23,9 @@ namespace barSysteem
             DataTable table = new DataTable("Products");
 
             // First add columns
-            table.Columns.Add("Naam", typeof(string));
-            table.Columns.Add("Prijs PP", typeof(decimal));
-            table.Columns.Add("Aantal", typeof(int));
+            //table.Columns.Add("Naam", typeof(string));
+            //table.Columns.Add("Prijs PP", typeof(decimal));
+            //table.Columns.Add("Aantal", typeof(int));
 
             // Dit is puur om te testen. Deze informatie word later uit een database gehaald
             //Product a = new Product("Brood", 0, 5.99m);
