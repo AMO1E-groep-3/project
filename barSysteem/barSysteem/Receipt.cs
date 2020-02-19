@@ -11,13 +11,13 @@ namespace barSysteem
     class Receipt
     {
         [JsonProperty("id")]
-        public int id { get; set; }
+        public int Id { get; set; }
         [JsonProperty("producten")]
-        public string products { get; set; }
+        public string Products { get; set; }
         [JsonProperty("totalPrice")]
-        public decimal price { get; set; }
+        public decimal Price { get; set; }
         [JsonProperty("date")]
-        public DateTime date { get; set; }
+        public DateTime Date { get; set; }
 
         
     }

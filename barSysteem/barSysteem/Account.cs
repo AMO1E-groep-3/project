@@ -7,22 +7,25 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+
 namespace barSysteem
 {
     public class Account
     {
         public delegate void AccountChangingEvent(object sender, AccountChangingEventArgs e);
         public event AccountChangingEvent AccountChanging;
+
         [JsonProperty("id")]
-        public string id { get; set; }
+        public string Id { get; set; }
         [JsonProperty("name")]
-        public string name { get; set; }
+        public string Name { get; set; }
         [JsonProperty("gratisDrank")]
-        public byte freeDrinks { get; set; }
+        public byte FreeDrinks { get; set; }
         [JsonProperty("saldo")]
-        public decimal saldo { get; set; }
+        public decimal Saldo { get; set; }
         [JsonProperty("rol")]
-        public string role { get; set; }
+        public string Role { get; set; }
+
 
         public void AccountChange(int id)
         {
@@ -38,11 +41,11 @@ namespace barSysteem
             {
                 var objects = JRaw.Parse(json);
                 Account newAccount = JsonConvert.DeserializeObject<Account>(objects.ToString());
-                this.id = newAccount.id;
-                this.name = newAccount.name;
-                this.freeDrinks = newAccount.freeDrinks;
-                this.saldo = newAccount.saldo;
-                this.role = newAccount.role;
+                this.Id = newAccount.Id;
+                this.Name = newAccount.Name;
+                this.FreeDrinks = newAccount.FreeDrinks;
+                this.Saldo = newAccount.Saldo;
+                this.Role = newAccount.Role;
 
                 AccountChangingEventArgs eventArgs3 = new AccountChangingEventArgs()
                 {

@@ -24,11 +24,11 @@ namespace barSysteem
         //    this.price = price; 
         //}
         [JsonProperty("id")]
-        public int id { get; set; }
+        public int Id { get; set; }
         [JsonProperty("name")]
-        public string displayName { get; set; }
+        public string DisplayName { get; set; }
         [JsonProperty("price")]
-        public decimal price { get; set; }
+        public decimal Price { get; set; }
 
 
     }
