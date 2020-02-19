@@ -1542,7 +1542,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button8);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.logInButton);
             this.Controls.Add(this.categoriesPanel);
@@ -1704,7 +1703,6 @@
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.Button button8;
     }
 }
 
