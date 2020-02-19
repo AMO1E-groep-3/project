@@ -45,10 +45,6 @@
             this.saldoLabel = new System.Windows.Forms.Label();
             this.rolLabel = new System.Windows.Forms.Label();
             this.itemListDataGridView = new System.Windows.Forms.DataGridView();
-            this.no = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.product = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Label = new System.Windows.Forms.Label();
             this.totalPriceLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -141,6 +137,11 @@
             this.adminButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.logInButton = new System.Windows.Forms.Button();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prijs = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.aantal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.categoriesPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -368,55 +369,23 @@
             // 
             this.itemListDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.itemListDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.no,
-            this.product,
-            this.price,
-            this.Amount});
-            this.itemListDataGridView.Location = new System.Drawing.Point(252, 279);
+            this.name,
+            this.prijs,
+            this.aantal});
+            this.itemListDataGridView.Location = new System.Drawing.Point(253, 279);
             this.itemListDataGridView.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.itemListDataGridView.Name = "itemListDataGridView";
             this.itemListDataGridView.RowHeadersWidth = 51;
             this.itemListDataGridView.RowTemplate.Height = 24;
-            this.itemListDataGridView.Size = new System.Drawing.Size(434, 173);
+            this.itemListDataGridView.Size = new System.Drawing.Size(438, 173);
             this.itemListDataGridView.TabIndex = 6;
             this.itemListDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // no
-            // 
-            this.no.Frozen = true;
-            this.no.HeaderText = "NO";
-            this.no.MinimumWidth = 6;
-            this.no.Name = "no";
-            this.no.Width = 40;
-            // 
-            // product
-            // 
-            this.product.Frozen = true;
-            this.product.HeaderText = "Product";
-            this.product.MinimumWidth = 6;
-            this.product.Name = "product";
-            this.product.Width = 200;
-            // 
-            // price
-            // 
-            this.price.Frozen = true;
-            this.price.HeaderText = "Price";
-            this.price.MinimumWidth = 6;
-            this.price.Name = "price";
-            this.price.Width = 70;
-            // 
-            // Amount
-            // 
-            this.Amount.HeaderText = "Quantity";
-            this.Amount.MinimumWidth = 6;
-            this.Amount.Name = "Amount";
-            this.Amount.Width = 70;
             // 
             // Label
             // 
             this.Label.AutoSize = true;
             this.Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label.Location = new System.Drawing.Point(696, 300);
+            this.Label.Location = new System.Drawing.Point(743, 333);
             this.Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label.Name = "Label";
             this.Label.Size = new System.Drawing.Size(121, 26);
@@ -427,7 +396,7 @@
             // 
             this.totalPriceLabel.AutoSize = true;
             this.totalPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPriceLabel.Location = new System.Drawing.Point(807, 302);
+            this.totalPriceLabel.Location = new System.Drawing.Point(854, 335);
             this.totalPriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.totalPriceLabel.Name = "totalPriceLabel";
             this.totalPriceLabel.Size = new System.Drawing.Size(66, 26);
@@ -1502,7 +1471,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(702, 336);
+            this.button1.Location = new System.Drawing.Point(743, 365);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 55);
@@ -1524,13 +1493,59 @@
             this.logInButton.UseVisualStyleBackColor = true;
             this.logInButton.Click += new System.EventHandler(this.LogInButton_Click);
             // 
-            // Form1
+            // name
+            // 
+            this.name.HeaderText = "name";
+            this.name.Name = "name";
+            this.name.Width = 200;
+            // 
+            // prijs
+            // 
+            this.prijs.HeaderText = "prijs";
+            this.prijs.Name = "prijs";
+            // 
+            // aantal
+            // 
+            this.aantal.HeaderText = "aantal";
+            this.aantal.Name = "aantal";
+            this.aantal.Width = 85;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button9.Location = new System.Drawing.Point(697, 279);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(41, 40);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "X";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button10.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button10.Location = new System.Drawing.Point(697, 325);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(41, 40);
+            this.button10.TabIndex = 10;
+            this.button10.Text = "-";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.Button10_Click);
+            // 
+            // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(924, 464);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.flowLayoutPanel);
             this.Controls.Add(this.totalPriceLabel);
             this.Controls.Add(this.Label);
@@ -1609,10 +1624,6 @@
         private System.Windows.Forms.Label saldoLabel;
         private System.Windows.Forms.Label rolLabel;
         private System.Windows.Forms.DataGridView itemListDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn no;
-        private System.Windows.Forms.DataGridViewTextBoxColumn product;
-        private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Amount;
         private System.Windows.Forms.Label Label;
         private System.Windows.Forms.Label totalPriceLabel;
         private System.Windows.Forms.Button button1;
@@ -1703,6 +1714,15 @@
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox23;
+<<<<<<< HEAD
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prijs;
+        private System.Windows.Forms.DataGridViewTextBoxColumn aantal;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+=======
+>>>>>>> master
     }
 }
 
