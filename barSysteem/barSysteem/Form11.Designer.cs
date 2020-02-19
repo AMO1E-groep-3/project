@@ -93,16 +93,6 @@ namespace barSysteem {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap button8_BackgroundImage {
-            get {
-                object obj = ResourceManager.GetObject("button8.BackgroundImage", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         public static System.Drawing.Bitmap fantaPictureBox_BackgroundImage {
             get {
                 object obj = ResourceManager.GetObject("fantaPictureBox.BackgroundImage", resourceCulture);
