@@ -28,12 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prijs = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.voorraad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productenDataGridView = new System.Windows.Forms.DataGridView();
             this.bestelButton = new System.Windows.Forms.Button();
-            this.unknownButton = new System.Windows.Forms.Button();
+            this.deleteProduct = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.bananen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,44 +42,19 @@
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productenDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // productenDataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.prijs,
-            this.voorraad});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 102;
-            this.dataGridView1.Size = new System.Drawing.Size(345, 499);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "naam product";
-            this.Column1.MinimumWidth = 12;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 250;
-            // 
-            // prijs
-            // 
-            this.prijs.HeaderText = "prijs";
-            this.prijs.MinimumWidth = 12;
-            this.prijs.Name = "prijs";
-            this.prijs.Width = 250;
-            // 
-            // voorraad
-            // 
-            this.voorraad.HeaderText = "voorraad";
-            this.voorraad.MinimumWidth = 12;
-            this.voorraad.Name = "voorraad";
-            this.voorraad.Width = 250;
+            this.productenDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.productenDataGridView.Location = new System.Drawing.Point(12, 12);
+            this.productenDataGridView.Name = "productenDataGridView";
+            this.productenDataGridView.RowHeadersWidth = 102;
+            this.productenDataGridView.Size = new System.Drawing.Size(345, 499);
+            this.productenDataGridView.TabIndex = 0;
             // 
             // bestelButton
             // 
@@ -94,17 +66,19 @@
             this.bestelButton.TabIndex = 10;
             this.bestelButton.Text = "Add Product";
             this.bestelButton.UseVisualStyleBackColor = true;
+            this.bestelButton.Click += new System.EventHandler(this.bestelButton_Click);
             // 
-            // unknownButton
+            // deleteProduct
             // 
-            this.unknownButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.unknownButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.unknownButton.Location = new System.Drawing.Point(28, 526);
-            this.unknownButton.Name = "unknownButton";
-            this.unknownButton.Size = new System.Drawing.Size(144, 42);
-            this.unknownButton.TabIndex = 11;
-            this.unknownButton.Text = "Delete Product";
-            this.unknownButton.UseVisualStyleBackColor = true;
+            this.deleteProduct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.deleteProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteProduct.Location = new System.Drawing.Point(28, 526);
+            this.deleteProduct.Name = "deleteProduct";
+            this.deleteProduct.Size = new System.Drawing.Size(144, 42);
+            this.deleteProduct.TabIndex = 11;
+            this.deleteProduct.Text = "Delete Product";
+            this.deleteProduct.UseVisualStyleBackColor = true;
+            this.deleteProduct.Click += new System.EventHandler(this.unknownButton_Click);
             // 
             // dataGridView2
             // 
@@ -220,18 +194,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(722, 445);
+            this.ClientSize = new System.Drawing.Size(985, 581);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.unknownButton);
+            this.Controls.Add(this.deleteProduct);
             this.Controls.Add(this.bestelButton);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.productenDataGridView);
             this.Controls.Add(this.groupBox1);
             this.Name = "bedrijfsleider";
             this.Text = "bedrijfsleider";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productenDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -240,15 +214,12 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView productenDataGridView;
         private System.Windows.Forms.Button bestelButton;
-        private System.Windows.Forms.Button unknownButton;
+        private System.Windows.Forms.Button deleteProduct;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn prijs;
-        private System.Windows.Forms.DataGridViewTextBoxColumn voorraad;
         private System.Windows.Forms.DataGridViewTextBoxColumn bananen;
         private System.Windows.Forms.DataGridViewTextBoxColumn email;
         private System.Windows.Forms.DataGridViewTextBoxColumn saldo;

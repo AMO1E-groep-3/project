@@ -17,6 +17,10 @@ namespace barSysteem
         {
             InitializeComponent();
             account.AccountChanging += Account_AccountChanging;
+            // verwijder - wijzing roy
+
+            bedrijfsleider bl = new bedrijfsleider();
+            bl.Show();
         }
         private void Account_AccountChanging(object sender, AccountChangingEventArgs e)
         {

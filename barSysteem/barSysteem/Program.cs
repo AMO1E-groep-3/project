@@ -18,6 +18,10 @@ namespace barSysteem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new mainForm());
+
+            Category beverages = new Category("Drankjes", 0);
+            // beverages.id = 1; (doe dit als je een id bij wilt van de drankjes (beverages))
+            // dat kan je ook doen voor .name of .products (voor producten dus)
         }
     }
 }
