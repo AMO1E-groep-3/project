@@ -26,7 +26,7 @@ namespace barSysteem
             table.Columns.Add("Naam", typeof(string));
             table.Columns.Add("Prijs", typeof(double));
             table.Columns.Add("Aantal", typeof(int));
-            productenDataGridView.DataSource = table;
+            //productenDataGridView.DataSource = table;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -47,8 +47,8 @@ namespace barSysteem
              * en die informatie word veranderd naar rows met producten
             */
             
-            table.Rows.Add("Aardappels", 5.99, 20);
-            productenDataGridView.DataSource = table;
+            //table.Rows.Add("Aardappels", 5.99, 20);
+            //productenDataGridView.DataSource = table;
 
             //table.Rows.Add(a.displayName, a.price, a.id);
             //productenGrid.Rows.Add();
