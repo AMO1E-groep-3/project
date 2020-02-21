@@ -134,5 +134,11 @@ namespace barSysteem
         {
 
         }
+
+        private void ItemListDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = itemListDataGridView.CurrentCell.RowIndex;
+            itemListDataGridView.Rows.Remove(itemListDataGridView.Rows[index]);
+        }
     }
 }

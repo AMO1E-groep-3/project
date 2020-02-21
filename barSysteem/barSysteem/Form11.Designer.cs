@@ -319,5 +319,15 @@ namespace barSysteem {
                 return ((bool)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Boolean similar to True.
+        /// </summary>
+        public static bool removeRow_UserAddedColumn {
+            get {
+                object obj = ResourceManager.GetObject("removeRow.UserAddedColumn", resourceCulture);
+                return ((bool)(obj));
+            }
+        }
     }
 }

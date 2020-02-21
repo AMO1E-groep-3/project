@@ -39,11 +39,18 @@ namespace barSysteem
                     dataGridView2.Rows[i].Cells[0].Value = product.Products.ToString();
                     dataGridView2.Rows[i].Cells[1].Value = product.Price.ToString();
                     dataGridView2.Rows[i].Cells[2].Value = product.Date.ToString();
+                    dataGridView2.Rows[i].Cells[3].Value = "Remove";
                     i++;
                 }
 
                 
 
+        }
+
+        private void DataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = dataGridView2.CurrentCell.RowIndex;
+            dataGridView2.Rows.Remove(dataGridView2.Rows[index]);
         }
     }
 }
