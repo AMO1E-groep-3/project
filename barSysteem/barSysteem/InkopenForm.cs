@@ -21,7 +21,7 @@ namespace barSysteem
         public void InitializeSupplyDataGridView()
         {
             DataTable table = new DataTable("Products");
-
+            
             // First add columns
             //table.Columns.Add("Naam", typeof(string));
             //table.Columns.Add("Prijs PP", typeof(decimal));
@@ -65,6 +65,11 @@ namespace barSysteem
             dataGridView_voorraad.AllowUserToAddRows = false; // De gebruiker kan niet zomaar de voorraad aanpassen
             dataGridView_voorraad.AllowUserToDeleteRows = false;
             dataGridView_voorraad.DataSource = table;
+        }
+
+        private void InkopenForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -70,3 +70,4 @@ C:\Users\brae3\OneDrive\Desktop\zooooooom\oefenen met git\barSysteem\barSysteem\
 C:\Users\brae3\OneDrive\Desktop\zooooooom\oefenen met git\barSysteem\barSysteem\obj\Debug\barSysteem.exe
 C:\Users\brae3\OneDrive\Desktop\zooooooom\oefenen met git\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
 C:\git\barsysteemproject\barSysteem\barSysteem\obj\Debug\barSysteem.bedrijfsleider.resources
+C:\Users\Biko Schouten\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
