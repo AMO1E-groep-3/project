@@ -27,7 +27,7 @@ else{
 ?>
 
 <h1>Hey, <?= $account['name']; ?></h1>
-<h3>Je saldo is opgewaardeerd!</h3>
+<h3>Je saldo is met <?=$saldo?> euro opgewaardeerd!</h3>
 
 
 
