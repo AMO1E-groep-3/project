@@ -13,6 +13,9 @@ namespace barSysteem
     [Serializable]
     public class Product
     {
+
+        // Dit is een comment om commiten te testen
+
         //public string displayName; // De naam die in de dataGridView word vermeld
         //public int id; // Identifier
         //public decimal price; // Prijs per product
