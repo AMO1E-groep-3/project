@@ -14,6 +14,7 @@ $query->execute([
 
 $account = $query->fetch(PDO::FETCH_ASSOC);
 $id = $account['id'];
+$name = $account['name'];
 $oldSaldo = $account['saldo'];
 $newSaldo = $oldSaldo + $saldo;
 
@@ -26,7 +27,7 @@ else{
 }
 ?>
 
-<h1>Hey, <?= $account['name']; ?></h1>
+<h1>Hey, <?= $name ?></h1>
 <h3>Je saldo is met <?=$saldo?> euro opgewaardeerd!</h3>
 
 
