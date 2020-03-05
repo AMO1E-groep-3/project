@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace barSysteem
 {
@@ -31,8 +32,7 @@ namespace barSysteem
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            PenningMeesterForm form = new PenningMeesterForm();
-            form.Show();
+            Process.Start("usersDatabase.exe");
         }
 
         private void Button4_Click(object sender, EventArgs e)

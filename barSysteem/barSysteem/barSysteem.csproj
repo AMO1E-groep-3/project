@@ -137,5 +137,11 @@
   <ItemGroup>
     <None Include="Resources\refresh1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Documents\Projects\usersDatabase\usersDatabase\usersDatabase.csproj">
+      <Project>{95673577-ab5c-4a2f-bc02-3e7f7d050508}</Project>
+      <Name>usersDatabase</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
