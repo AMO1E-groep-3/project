@@ -57,5 +57,16 @@ namespace barSysteem
         private void unknownButton_Click(object sender, EventArgs e)
         {
         }
+
+        private void PenningmeesterButton_Click(object sender, EventArgs e)
+        {
+            PenningMeesterForm penningmeesterForm2 = new PenningMeesterForm();
+            penningmeesterForm2.Show();
+        }
+
+        private void productSettingsButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
