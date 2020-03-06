@@ -111,3 +111,10 @@ C:\Users\jamil\OneDrive\Desktop\BarSystem\project\barSysteem\barSysteem\obj\Debu
 C:\Users\jamil\OneDrive\Desktop\BarSystem\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
 C:\Users\jamil\OneDrive\Desktop\BarSystem\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
 C:\Users\jamil\OneDrive\Desktop\BarSystem\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\usersDatabase.exe
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\TooSharp.Core.dll
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\MySql.Data.dll
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\Humanizer.dll
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\usersDatabase.pdb
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\usersDatabase.exe.config
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\TooSharp.Core.xml

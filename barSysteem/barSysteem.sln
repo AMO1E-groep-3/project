@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "barSysteem", "barSysteem\barSysteem.csproj", "{61A02D46-DE46-4741-928B-ED382D2830F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usersDatabase", "..\..\..\..\Documents\Projects\usersDatabase\usersDatabase\usersDatabase.csproj", "{95673577-AB5C-4A2F-BC02-3E7F7D050508}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usersDatabase", "..\usersDatabase\usersDatabase\usersDatabase\usersDatabase.csproj", "{95673577-AB5C-4A2F-BC02-3E7F7D050508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
