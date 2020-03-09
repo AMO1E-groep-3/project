@@ -31,34 +31,17 @@
             this.inkoperButton = new System.Windows.Forms.Button();
             this.usersSettingsButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.PenningmeesterButton = new System.Windows.Forms.Button();
             this.productSettingsButton = new System.Windows.Forms.Button();
+            this.PenningmeesterButton = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // inkoperButton
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(19, 124);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 42);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Penningmeester";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // button4
-            // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(172, 124);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(134, 42);
-            this.button4.TabIndex = 20;
-            this.button4.Text = "Inkoper";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.Button5_Click);
+            this.inkoperButton.Location = new System.Drawing.Point(0, 0);
+            this.inkoperButton.Name = "inkoperButton";
+            this.inkoperButton.Size = new System.Drawing.Size(75, 23);
+            this.inkoperButton.TabIndex = 0;
             // 
             // usersSettingsButton
             // 
@@ -76,34 +59,17 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
-            this.groupBox2.Controls.Add(this.productSettingsButton);
             this.groupBox2.Controls.Add(this.PenningmeesterButton);
             this.groupBox2.Controls.Add(this.usersSettingsButton);
             this.groupBox2.Controls.Add(this.productSettingsButton);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Location = new System.Drawing.Point(74, 75);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(328, 217);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Screens";
-            // 
-            // PenningmeesterButton
-            // 
-            this.PenningmeesterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(151)))), ((int)(((byte)(77)))));
-            this.PenningmeesterButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PenningmeesterButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PenningmeesterButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.PenningmeesterButton.Location = new System.Drawing.Point(25, 153);
-            this.PenningmeesterButton.Name = "PenningmeesterButton";
-            this.PenningmeesterButton.Size = new System.Drawing.Size(179, 52);
-            this.PenningmeesterButton.TabIndex = 21;
-            this.PenningmeesterButton.Text = "Penningmeester";
-            this.PenningmeesterButton.UseVisualStyleBackColor = false;
-            this.PenningmeesterButton.Click += new System.EventHandler(this.PenningmeesterButton_Click);
             // 
             // productSettingsButton
             // 
@@ -117,6 +83,19 @@
             this.productSettingsButton.Text = "Products Settings";
             this.productSettingsButton.UseVisualStyleBackColor = false;
             this.productSettingsButton.Click += new System.EventHandler(this.productSettingsButton_Click);
+            // 
+            // PenningmeesterButton
+            // 
+            this.PenningmeesterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(151)))), ((int)(((byte)(77)))));
+            this.PenningmeesterButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PenningmeesterButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PenningmeesterButton.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PenningmeesterButton.Location = new System.Drawing.Point(25, 153);
+            this.PenningmeesterButton.Name = "PenningmeesterButton";
+            this.PenningmeesterButton.Size = new System.Drawing.Size(179, 52);
+            this.PenningmeesterButton.TabIndex = 21;
+            this.PenningmeesterButton.Text = "Penningmeester";
+            this.PenningmeesterButton.UseVisualStyleBackColor = false;
             // 
             // bedrijfsleider
             // 

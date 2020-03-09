@@ -28,11 +28,17 @@ namespace barSysteem
         //}
         [JsonProperty("id")]
         public int Id { get; set; }
+
         [JsonProperty("name")]
         public string DisplayName { get; set; }
+
         [JsonProperty("price")]
         public decimal Price { get; set; }
 
+        [JsonProperty("category")]
+        public decimal Categorie { get; set; }
 
+        [JsonProperty("aantal")]
+        public decimal Amount { get; set; }
     }
 }

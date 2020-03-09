@@ -16,6 +16,19 @@ namespace barSysteem
         public products()
         {
             InitializeComponent();
+            string urlAddress = "http://localhost/project/getDataBedrijfs.php"; // adres van php bestand
+
+            using (WebClient client = new WebClient()) // maak een webclient aan voor connectie
+            {
+                // this string contains the webpage's source
+                string pageSource = client.DownloadString(urlAddress); // download de string van het opgegeven url
+            }
+
+            Product product = new Product();
+            for (int i = 0; i < 6; i++)
+            {
+                productsDataView.Rows.Add(product.DisplayName, product.Price, product.Categorie, product.Amount, "X");
+            }
         }
 
         private void artikelNaamLabel_Click(object sender, EventArgs e)

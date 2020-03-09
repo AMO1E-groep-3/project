@@ -63,5 +63,11 @@ namespace barSysteem
             InkopenForm iF = new InkopenForm();
             iF.Show();
         }
+
+        private void productSettingsButton_Click(object sender, EventArgs e)
+        {
+            products pr = new products();
+            pr.Show();
+        }
     }
 }
