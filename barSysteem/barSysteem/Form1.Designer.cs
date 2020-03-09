@@ -45,9 +45,6 @@
             this.saldoLabel = new System.Windows.Forms.Label();
             this.rolLabel = new System.Windows.Forms.Label();
             this.itemListDataGridView = new System.Windows.Forms.DataGridView();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prijs = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.aantal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Label = new System.Windows.Forms.Label();
             this.totalPriceLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -140,16 +137,10 @@
             this.adminButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.logInButton = new System.Windows.Forms.Button();
-<<<<<<< Updated upstream
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prijs = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aantal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.removeRow = new System.Windows.Forms.DataGridViewButtonColumn();
-=======
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
->>>>>>> Stashed changes
             this.categoriesPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -379,7 +370,6 @@
             this.itemListDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.name,
             this.prijs,
-<<<<<<< Updated upstream
             this.aantal,
             this.removeRow});
             this.itemListDataGridView.Location = new System.Drawing.Point(675, 665);
@@ -388,35 +378,9 @@
             this.itemListDataGridView.RowHeadersWidth = 51;
             this.itemListDataGridView.RowTemplate.Height = 24;
             this.itemListDataGridView.Size = new System.Drawing.Size(1168, 413);
-=======
-            this.aantal});
-            this.itemListDataGridView.Location = new System.Drawing.Point(256, 279);
-            this.itemListDataGridView.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.itemListDataGridView.Name = "itemListDataGridView";
-            this.itemListDataGridView.RowHeadersWidth = 51;
-            this.itemListDataGridView.RowTemplate.Height = 24;
-            this.itemListDataGridView.Size = new System.Drawing.Size(438, 184);
->>>>>>> Stashed changes
             this.itemListDataGridView.TabIndex = 6;
             this.itemListDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ItemListDataGridView_CellClick);
             this.itemListDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // name
-            // 
-            this.name.HeaderText = "name";
-            this.name.Name = "name";
-            this.name.Width = 200;
-            // 
-            // prijs
-            // 
-            this.prijs.HeaderText = "prijs";
-            this.prijs.Name = "prijs";
-            // 
-            // aantal
-            // 
-            this.aantal.HeaderText = "aantal";
-            this.aantal.Name = "aantal";
-            this.aantal.Width = 85;
             // 
             // Label
             // 
@@ -452,11 +416,7 @@
             this.flowLayoutPanel.Location = new System.Drawing.Point(675, 5);
             this.flowLayoutPanel.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-<<<<<<< Updated upstream
             this.flowLayoutPanel.Size = new System.Drawing.Size(1672, 656);
-=======
-            this.flowLayoutPanel.Size = new System.Drawing.Size(627, 248);
->>>>>>> Stashed changes
             this.flowLayoutPanel.TabIndex = 8;
             this.flowLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -481,7 +441,6 @@
             this.label14.Size = new System.Drawing.Size(1111, 107);
             this.label14.TabIndex = 1;
             this.label14.Text = "Please Select A Category";
-            this.label14.Click += new System.EventHandler(this.Label14_Click);
             // 
             // sodaPanel
             // 
@@ -1535,7 +1494,6 @@
             this.logInButton.UseVisualStyleBackColor = true;
             this.logInButton.Click += new System.EventHandler(this.LogInButton_Click);
             // 
-<<<<<<< Updated upstream
             // name
             // 
             this.name.HeaderText = "name";
@@ -1563,45 +1521,6 @@
             this.removeRow.HeaderText = "Remove";
             this.removeRow.MinimumWidth = 12;
             this.removeRow.Name = "removeRow";
-=======
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button9.Location = new System.Drawing.Point(697, 279);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(41, 40);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "X";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.Button9_Click);
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button10.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button10.Location = new System.Drawing.Point(697, 325);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(41, 40);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "-";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.Button10_Click);
->>>>>>> Stashed changes
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(340, 253);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(0, 24);
-            this.label15.TabIndex = 2;
-            this.label15.Click += new System.EventHandler(this.Label15_Click);
             // 
             // mainForm
             // 
@@ -1609,14 +1528,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(2464, 1106);
-=======
-            this.ClientSize = new System.Drawing.Size(924, 464);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
->>>>>>> Stashed changes
             this.Controls.Add(this.flowLayoutPanel);
             this.Controls.Add(this.totalPriceLabel);
             this.Controls.Add(this.Label);
@@ -1789,13 +1701,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn prijs;
         private System.Windows.Forms.DataGridViewTextBoxColumn aantal;
-<<<<<<< Updated upstream
         private System.Windows.Forms.DataGridViewButtonColumn removeRow;
-=======
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label15;
->>>>>>> Stashed changes
     }
 }
 

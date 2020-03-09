@@ -27,7 +27,7 @@ namespace barSysteem
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -135,21 +135,10 @@ namespace barSysteem
 
         }
 
-<<<<<<< Updated upstream
         private void ItemListDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int index = itemListDataGridView.CurrentCell.RowIndex;
             itemListDataGridView.Rows.Remove(itemListDataGridView.Rows[index]);
-=======
-        private void Label14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label15_Click(object sender, EventArgs e)
-        {
-
->>>>>>> Stashed changes
         }
     }
 }

@@ -71,5 +71,11 @@ namespace barSysteem
         {
 
         }
+
+        private void receiptFormButton_Click(object sender, EventArgs e)
+        {
+            buyerreceipt form = new buyerreceipt();
+            form.Show();
+        }
     }
 }

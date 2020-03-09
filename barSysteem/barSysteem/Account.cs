@@ -11,10 +11,9 @@ using Newtonsoft.Json.Linq;
 namespace barSysteem
 {
     public class Account
-    {    
+    {
         public delegate void AccountChangingEvent(object sender, AccountChangingEventArgs e);
         public event AccountChangingEvent AccountChanging;
-
 
         [JsonProperty("id")]
         public string Id { get; set; }
@@ -28,7 +27,7 @@ namespace barSysteem
         public string Role { get; set; }
 
 
-        public bool AccountChange(int id)
+        public void AccountChange(int id)
         {
             //api to set every var with a value
             string url = "http://127.0.0.1/project/checkId.php?id=" + id+"";
@@ -59,13 +58,12 @@ namespace barSysteem
                 {
 
                 }
-                return true;
 
             }
-
             catch 
             {
-                return false;
+
+                throw;
             }
             
 
