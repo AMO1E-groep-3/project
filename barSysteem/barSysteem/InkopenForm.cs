@@ -12,6 +12,9 @@ namespace barSysteem
 {
     public partial class InkopenForm : Form
     {
+        /// <summary>
+        /// Test....
+        /// </summary>
         public InkopenForm()
         {
             InitializeComponent();
@@ -42,6 +45,7 @@ namespace barSysteem
             //table.Rows.Add(d.displayName, d.price, d.id);
             //table.Rows.Add(e.displayName, e.price, e.id);
             //table.Rows.Add(f.displayName, f.price, f.id);
+
 
             //table.Rows.Add(a.displayName, a.price, a.id);
             //table.Rows.Add(b.displayName, b.price, b.id);
