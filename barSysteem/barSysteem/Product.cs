@@ -36,7 +36,7 @@ namespace barSysteem
         public decimal Price { get; set; }
 
         [JsonProperty("category")]
-        public decimal Categorie { get; set; }
+        public string Categorie { get; set; }
 
         [JsonProperty("aantal")]
         public decimal Amount { get; set; }
