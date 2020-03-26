@@ -91,12 +91,32 @@ namespace barSysteem {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Boolean similar to True.
+        /// </summary>
+        public static bool Category_UserAddedColumn {
+            get {
+                object obj = ResourceManager.GetObject("Category.UserAddedColumn", resourceCulture);
+                return ((bool)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap fantaPictureBox_BackgroundImage {
             get {
                 object obj = ResourceManager.GetObject("fantaPictureBox.BackgroundImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Boolean similar to True.
+        /// </summary>
+        public static bool id_UserAddedColumn {
+            get {
+                object obj = ResourceManager.GetObject("id.UserAddedColumn", resourceCulture);
+                return ((bool)(obj));
             }
         }
         
