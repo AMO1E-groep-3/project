@@ -82,125 +82,127 @@ namespace barSysteem
                 //Image appelsap = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
                 //Image waterfles = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
                 var objects = JArray.Parse(pageSource);
-                    foreach (var item in objects)
-                    {
-                        Product product = JsonConvert.DeserializeObject<Product>(item.ToString());
-                        productsDataView.Rows.Add(frikandelBroodje, product.DisplayName, product.Price, product.Categorie, product.Amount, "X");
-                    }
-                
-            }
-        }
-
-        private void productsDataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (artikelNaamLabel.Text == "voorbeeld: 'Aardappel'" || prijsArtikelLabel.Text == "voorbeeld: '5.99' moet met '.'" || aantalArtikelLabel.Text == "voorbeeld: '5'" || categorieArtikelLabel.Text == "voorbeeld: 'Groente'" || artikelNaamLabel.ForeColor == Color.Gray)
-            {
-                errorCheck.Visible = true;
-            }
-            else
-            {
-                errorCheck.Visible = false;
-                string name = artikelNaamLabel.Text;
-                string prijs = prijsArtikelLabel.Text;
-                string aantal = aantalArtikelLabel.Text;
-                string categorie = categorieArtikelLabel.Text;
-
-                string urlAddress = "http://localhost/project/addProductBedrijfsleider.php?name=" + name + "&prijs=" + prijs + "&aantal=" + aantal + "&categorie=" + categorie; // adres van php bestand
-
-                using (WebClient client = new WebClient()) // maak een webclient aan voor connectie
+                foreach (var item in objects)
                 {
-                    // this string contains the webpage's source
-                    string pageSource = client.DownloadString(urlAddress); // download de string van het opgegeven url
+                    Product product = JsonConvert.DeserializeObject<Product>(item.ToString());
+                    productsDataView.Rows.Add(frikandelBroodje, product.Name, product.Price, product.Category, product.Aantal, "X");
                 }
-            }
-        }
 
-        private void artikelNaamLabel_Enter(object sender, EventArgs e)
+        }
+    }
+
+    private void productsDataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+    {
+
+    }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+        if (artikelNaamLabel.Text == "voorbeeld: 'Aardappel'" || prijsArtikelLabel.Text == "voorbeeld: '5.99' moet met '.'" || aantalArtikelLabel.Text == "voorbeeld: '5'" || categorieArtikelLabel.Text == "voorbeeld: 'Groente'" || artikelNaamLabel.ForeColor == Color.Gray)
         {
-            if (artikelNaamLabel.Text == "voorbeeld: 'Aardappel'")
-            {
-                artikelNaamLabel.Text = "";
-
-                artikelNaamLabel.ForeColor = Color.Black;
-            }
+            errorCheck.Visible = true;
         }
-
-        private void artikelNaamLabel_Leave(object sender, EventArgs e)
+        else
         {
-            if (artikelNaamLabel.Text == "")
-            {
-                artikelNaamLabel.Text = "voorbeeld: 'Aardappel'";
+            errorCheck.Visible = false;
+            string name = artikelNaamLabel.Text;
+            string prijs = prijsArtikelLabel.Text;
+            string aantal = aantalArtikelLabel.Text;
+            string categorie = categorieArtikelLabel.Text;
 
-                artikelNaamLabel.ForeColor = Color.Gray;
+            string urlAddress = "http://localhost/project/addProductBedrijfsleider.php?name=" + name + "&prijs=" + prijs + "&aantal=" + aantal + "&categorie=" + categorie; // adres van php bestand
+
+            using (WebClient client = new WebClient()) // maak een webclient aan voor connectie
+            {
+                // this string contains the webpage's source
+                string pageSource = client.DownloadString(urlAddress); // download de string van het opgegeven url
             }
         }
+    }
 
-        private void prijsArtikelLabel_Enter(object sender, EventArgs e)
+    private void artikelNaamLabel_Enter(object sender, EventArgs e)
+    {
+        if (artikelNaamLabel.Text == "voorbeeld: 'Aardappel'")
         {
-            if (prijsArtikelLabel.Text == "voorbeeld: '5.99' moet met '.'")
-            {
-                prijsArtikelLabel.Text = "";
+            artikelNaamLabel.Text = "";
 
-                prijsArtikelLabel.ForeColor = Color.Black;
-            }
+            artikelNaamLabel.ForeColor = Color.Black;
         }
+    }
 
-        private void prijsArtikelLabel_Leave(object sender, EventArgs e)
+    private void artikelNaamLabel_Leave(object sender, EventArgs e)
+    {
+        if (artikelNaamLabel.Text == "")
         {
-            if (prijsArtikelLabel.Text == "")
-            {
-                prijsArtikelLabel.Text = "voorbeeld: '5.99' moet met '.'";
+            artikelNaamLabel.Text = "voorbeeld: 'Aardappel'";
 
-                prijsArtikelLabel.ForeColor = Color.Gray;
-            }
+            artikelNaamLabel.ForeColor = Color.Gray;
         }
+    }
 
-        private void aantalArtikelLabel_Enter(object sender, EventArgs e)
+    private void prijsArtikelLabel_Enter(object sender, EventArgs e)
+    {
+        if (prijsArtikelLabel.Text == "voorbeeld: '5.99' moet met '.'")
         {
-            if (aantalArtikelLabel.Text == "voorbeeld: '5'")
-            {
-                aantalArtikelLabel.Text = "";
+            prijsArtikelLabel.Text = "";
 
-                aantalArtikelLabel.ForeColor = Color.Black;
-            }
+            prijsArtikelLabel.ForeColor = Color.Black;
         }
+    }
 
-        private void aantalArtikelLabel_Leave(object sender, EventArgs e)
+    private void prijsArtikelLabel_Leave(object sender, EventArgs e)
+    {
+        if (prijsArtikelLabel.Text == "")
         {
-            if (aantalArtikelLabel.Text == "")
-            {
-                aantalArtikelLabel.Text = "voorbeeld: '5'";
+            prijsArtikelLabel.Text = "voorbeeld: '5.99' moet met '.'";
 
-                aantalArtikelLabel.ForeColor = Color.Gray;
-            }
+            prijsArtikelLabel.ForeColor = Color.Gray;
         }
+    }
 
-        private void categorieArtikelLabel_Enter(object sender, EventArgs e)
+    private void aantalArtikelLabel_Enter(object sender, EventArgs e)
+    {
+        if (aantalArtikelLabel.Text == "voorbeeld: '5'")
         {
-            if (categorieArtikelLabel.Text == "voorbeeld: 'Groente'")
-            {
-                categorieArtikelLabel.Text = "";
+            aantalArtikelLabel.Text = "";
 
-                categorieArtikelLabel.ForeColor = Color.Black;
-            }
+            aantalArtikelLabel.ForeColor = Color.Black;
         }
+    }
 
-        private void categorieArtikelLabel_Leave(object sender, EventArgs e)
+    private void aantalArtikelLabel_Leave(object sender, EventArgs e)
+    {
+        if (aantalArtikelLabel.Text == "")
         {
-            if (categorieArtikelLabel.Text == "")
-            {
-                categorieArtikelLabel.Text = "voorbeeld: 'Groente'";
+            aantalArtikelLabel.Text = "voorbeeld: '5'";
 
-                categorieArtikelLabel.ForeColor = Color.Gray;
-            }
+            aantalArtikelLabel.ForeColor = Color.Gray;
         }
+    }
 
-        private void fotoInvoegen_Click(object sender, EventArgs e)
+    private void categorieArtikelLabel_Enter(object sender, EventArgs e)
+    {
+        if (categorieArtikelLabel.Text == "voorbeeld: 'Groente'")
+        {
+            categorieArtikelLabel.Text = "";
+
+            categorieArtikelLabel.ForeColor = Color.Black;
+        }
+    }
+
+    private void categorieArtikelLabel_Leave(object sender, EventArgs e)
+    {
+        if (categorieArtikelLabel.Text == "")
+        {
+            categorieArtikelLabel.Text = "voorbeeld: 'Groente'";
+
+            categorieArtikelLabel.ForeColor = Color.Gray;
+        }
+    }
+
+    private void fotoInvoegen_Click(object sender, EventArgs e)
+    {
+        if (openFileDialog1.ShowDialog() == DialogResult.OK)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -213,5 +215,11 @@ namespace barSysteem
                 fotoImage.Image = foto;
             }
         }
+        else
+        {
+            Image foto = Image.FromFile("D:/A_ROC/A_PROJECT/Leerjaar 1/Periode 3/Barsysteem (new)/barSysteem/barSysteem/obj/Debug/img/image-unavailable.png");
+            fotoImage.Image = foto;
+        }
     }
+}
 }
