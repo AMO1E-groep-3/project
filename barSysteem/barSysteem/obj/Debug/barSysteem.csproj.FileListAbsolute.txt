@@ -118,3 +118,52 @@ C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\Humanizer.dll
 C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\usersDatabase.pdb
 C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\usersDatabase.exe.config
 C:\xampp\htdocs\project\project\barSysteem\barSysteem\bin\Debug\TooSharp.Core.xml
+C:\xampp\htdocs\project\project\barSysteem\barSysteem\obj\Debug\barSysteem.buyerreceipt.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.bedrijfsleider.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.buyerreceipt.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.InkopenForm.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.LoginScreen.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.PenningMeesterForm.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CoreCompileInputs.cache
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+C:\git\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.bedrijfsleider.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.buyerreceipt.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.InkopenForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.LoginScreen.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.PenningMeesterForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.products.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem (new)\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.bedrijfsleider.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.buyerreceipt.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.InkopenForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.LoginScreen.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.PenningMeesterForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.products.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\Barsysteem\barSysteem\barSysteem\obj\Debug\barSysteem.pdb

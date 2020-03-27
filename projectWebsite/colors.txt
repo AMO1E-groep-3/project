@@ -1,4 +1,0 @@
-//Colors
-
-background down: #428427
-background up: #9BD357

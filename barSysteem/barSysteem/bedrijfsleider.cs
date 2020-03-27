@@ -37,8 +37,8 @@ namespace barSysteem
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            InkopenForm form = new InkopenForm();
-            form.Show();
+            products pr = new products();
+            pr.Show();
         }
 
         private void bestelButton_Click(object sender, EventArgs e)
@@ -58,15 +58,16 @@ namespace barSysteem
         {
         }
 
-        private void PenningmeesterButton_Click(object sender, EventArgs e)
+        private void Button5_Click(object sender, EventArgs e)
         {
-            PenningMeesterForm penningmeesterForm2 = new PenningMeesterForm();
-            penningmeesterForm2.Show();
+            InkopenForm iF = new InkopenForm();
+            iF.Show();
         }
 
         private void productSettingsButton_Click(object sender, EventArgs e)
         {
-
+            products pr = new products();
+            pr.Show();
         }
     }
 }

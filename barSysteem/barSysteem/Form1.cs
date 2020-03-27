@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,16 +15,23 @@ namespace barSysteem
     public partial class mainForm : Form
     {
         Account account = new Account();
+        Product p;
+
+
         public mainForm()
         {
             InitializeComponent();
             account.AccountChanging += Account_AccountChanging;
+            p = new Product();
+            
+
         }
         private void Account_AccountChanging(object sender, AccountChangingEventArgs e)
         {
             nameLabel.Text = account.Name;
             saldoLabel.Text = account.Saldo.ToString();
             rolLabel.Text = account.Role;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -139,6 +148,91 @@ namespace barSysteem
         {
             int index = itemListDataGridView.CurrentCell.RowIndex;
             itemListDataGridView.Rows.Remove(itemListDataGridView.Rows[index]);
+        }
+
+        private void SelectGategoryPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Button39_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 1);
+        }
+
+        private void Button38_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 2);
+        }
+
+        private void Button37_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 3);
+        }
+
+        private void Button36_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 4);
+        }
+
+        private void Button31_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 5);
+        }
+
+        private void Button30_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 6);
+        }
+
+        private void Button29_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 7);
+        }
+
+        private void Button28_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 8);
+        }
+
+        private void Button23_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 9);
+        }
+
+        private void Button22_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 10);
+        }
+
+        private void Button21_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 11);
+        }
+
+        private void Button20_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 12);
+        }
+
+        private void AddToListButton_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 13);
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 14);
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 15);
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            p.getProduct(itemListDataGridView, 16);
         }
     }
 }
