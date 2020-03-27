@@ -18,24 +18,48 @@ namespace barSysteem
     {
         public products()
         {
+            
             InitializeComponent();
-            Image foto = Image.FromFile("D:/A_ROC/A_PROJECT/Leerjaar 1/Periode 3/Barsysteem (new)/barSysteem/barSysteem/obj/Debug/img/image-unavailable.png");
-            fotoImage.Image = foto;
-            string urlAddress = "http://localhost/project/getDataBedrijfs.php"; // adres van php bestand
 
-            using (WebClient client = new WebClient()) // maak een webclient aan voor connectie
-            {
-                // this string contains the webpage's source
-                string pageSource = client.DownloadString(urlAddress); // download de string van het opgegeven url
 
-                Image image = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                var objects = JArray.Parse(pageSource);
-                foreach (var item in objects)
-                {
-                    Product product = JsonConvert.DeserializeObject<Product>(item.ToString());
-                    productsDataView.Rows.Add(image, product.DisplayName, product.Price, product.Categorie, product.Amount, "X");
-                }
-            }
+
+            //string urlAddress = "http://localhost/project/getDataBedrijfs.php"; // adres van php bestand
+
+            //using (WebClient client = new WebClient()) // maak een webclient aan voor connectie
+            //{
+                
+            //    //    // this string contains the webpage's source
+            //    //string pageSource = client.DownloadString(urlAddress); // download de string van het opgegeven url
+
+            //    ////Image.FromStream(pageSourceImg);
+            //    ////Image image = Image.FromFile("D:/A_ROC/A_PROJECT/Leerjaar 1/Periode 3/Barsysteem/barSysteem/barSysteem/obj/Debug/img");
+            //    //var objects = JArray.Parse(pageSource);
+            //    //foreach (var item in objects)
+            //    //{
+            //    //    Product product = JsonConvert.DeserializeObject<Product>(item.ToString());
+            //    //    Product imgSource = JsonConvert.DeserializeObject<Product>(item.ToString());
+            //    //    productsDataView.Rows.Add(product.DisplayName, product.Price, product.Categorie, product.Amount, "X");
+            //    //}
+
+            //    string pageSource = client.DownloadString(urlAddress); // download de string van het opgegeven url
+
+            //    //Image frikandelBroodje = Image.FromFile("D:/A_ROC/A_PROJECT/Leerjaar 1/Periode 3/Barsysteem/barSysteem/barSysteem/obj/Debug/img");
+            //    //Image saucijzenBroodje = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    //Image broodjeKroket = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
+            //    //Image twix = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    //Image kitkat = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    //Image chipsNaturel = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    //Image chipsPaprika = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    //Image blikCola = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    //Image appelsap = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    //Image waterfles = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+            //    var objects = JArray.Parse(pageSource);
+            //    foreach (var item in objects)
+            //    {
+            //        Product product = JsonConvert.DeserializeObject<Product>(item.ToString());
+            //        productsDataView.Rows.Add(product.DisplayName, product.Price, product.Categorie, product.Amount, "X");
+            //    }
+            //}
         }
 
         private void refreshButton_Click(object sender, EventArgs e)
@@ -47,16 +71,16 @@ namespace barSysteem
                 // this string contains the webpage's source
                 string pageSource = client.DownloadString(urlAddress); // download de string van het opgegeven url
 
-                Image frikandelBroodje = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image saucijzenBroodje = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image broodjeKroket = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image twix = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image kitkat = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image chipsNaturel = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image chipsPaprika = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image blikCola = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image appelsap = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
-                Image waterfles = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
+                Image frikandelBroodje = Image.FromFile("D:/Program Files/XAMPP/htdocs/project/img/frikandelbroodje.jfif");
+                //Image saucijzenBroodje = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+                //Image broodjeKroket = Image.FromFile("D:/a_all-pictures/Saved Pictures/external-content.duckduckgo.com.jfif");
+                //Image twix = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+                //Image kitkat = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+                //Image chipsNaturel = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+                //Image chipsPaprika = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+                //Image blikCola = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+                //Image appelsap = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
+                //Image waterfles = Image.FromFile("./obj/Debug/img/external-content.duckduckgo.com");
                 var objects = JArray.Parse(pageSource);
                     foreach (var item in objects)
                     {
@@ -185,7 +209,7 @@ namespace barSysteem
             }
             else
             {
-                Image foto = Image.FromFile("D:/A_ROC/A_PROJECT/Leerjaar 1/Periode 3/Barsysteem (new)/barSysteem/barSysteem/obj/Debug/img/image-unavailable.png");
+                Image foto = Image.FromFile("./obj/Debug/img/image-unavailable.png");
                 fotoImage.Image = foto;
             }
         }

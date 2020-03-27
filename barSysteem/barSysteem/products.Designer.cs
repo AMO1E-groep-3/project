@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             this.productsDataView = new System.Windows.Forms.DataGridView();
-            this.foto = new System.Windows.Forms.DataGridViewImageColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.category = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.remove = new System.Windows.Forms.DataGridViewButtonColumn();
             this.artikelNaamLabel = new System.Windows.Forms.TextBox();
             this.prijsArtikelLabel = new System.Windows.Forms.TextBox();
             this.aantalArtikelLabel = new System.Windows.Forms.TextBox();
@@ -45,23 +39,29 @@
             this.categorieArtikelLabel = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.fotoImage = new System.Windows.Forms.PictureBox();
             this.fileLocation = new System.Windows.Forms.Label();
             this.fotoInvoegen = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.errorCheck = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.refreshButton = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.fotoImage = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.foto = new System.Windows.Forms.DataGridViewImageColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.category = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.remove = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.productsDataView)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fotoImage)).BeginInit();
@@ -86,55 +86,6 @@
             this.productsDataView.Size = new System.Drawing.Size(455, 384);
             this.productsDataView.TabIndex = 0;
             this.productsDataView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.productsDataView_CellContentClick);
-            // 
-            // foto
-            // 
-            this.foto.HeaderText = "foto";
-            this.foto.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.foto.Name = "foto";
-            this.foto.ReadOnly = true;
-            // 
-            // name
-            // 
-            this.name.HeaderText = "naam";
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            this.name.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.name.ToolTipText = "Alle namen in de database";
-            // 
-            // price
-            // 
-            this.price.HeaderText = "prijs";
-            this.price.Name = "price";
-            this.price.ReadOnly = true;
-            this.price.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.price.ToolTipText = "Prijzen van producten in database";
-            // 
-            // category
-            // 
-            this.category.HeaderText = "categorie";
-            this.category.Name = "category";
-            this.category.ReadOnly = true;
-            this.category.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.category.ToolTipText = "Categoriën van producten in database";
-            // 
-            // amount
-            // 
-            this.amount.HeaderText = "aantal";
-            this.amount.Name = "amount";
-            this.amount.ReadOnly = true;
-            this.amount.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.amount.ToolTipText = "De hoeveelheid van een product in database";
-            this.amount.Width = 45;
-            // 
-            // remove
-            // 
-            this.remove.HeaderText = "verwijder";
-            this.remove.Name = "remove";
-            this.remove.ReadOnly = true;
-            this.remove.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.remove.ToolTipText = "Klik op de knop van het product, in de juiste rij, om het te verwijderen";
-            this.remove.Width = 66;
             // 
             // artikelNaamLabel
             // 
@@ -262,6 +213,55 @@
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.Gainsboro;
+            this.label14.Location = new System.Drawing.Point(-2, 341);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(222, 2);
+            this.label14.TabIndex = 22;
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.Gainsboro;
+            this.label13.Location = new System.Drawing.Point(-3, 255);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(222, 2);
+            this.label13.TabIndex = 21;
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.Gainsboro;
+            this.label12.Location = new System.Drawing.Point(-2, 213);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(222, 2);
+            this.label12.TabIndex = 21;
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.Gainsboro;
+            this.label11.Location = new System.Drawing.Point(-2, 171);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(222, 2);
+            this.label11.TabIndex = 20;
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.Gainsboro;
+            this.label10.Location = new System.Drawing.Point(-3, 125);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(222, 2);
+            this.label10.TabIndex = 19;
+            // 
+            // fotoImage
+            // 
+            this.fotoImage.Location = new System.Drawing.Point(20, 277);
+            this.fotoImage.Name = "fotoImage";
+            this.fotoImage.Size = new System.Drawing.Size(78, 59);
+            this.fotoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.fotoImage.TabIndex = 17;
+            this.fotoImage.TabStop = false;
+            // 
             // fileLocation
             // 
             this.fileLocation.Location = new System.Drawing.Point(104, 283);
@@ -327,6 +327,14 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.Gainsboro;
+            this.label9.Location = new System.Drawing.Point(-3, 6);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(222, 70);
+            this.label9.TabIndex = 18;
+            // 
             // refreshButton
             // 
             this.refreshButton.BackColor = System.Drawing.Color.White;
@@ -374,62 +382,54 @@
     " Formats|*.png";
             this.openFileDialog1.Title = "Voeg product toe";
             // 
-            // fotoImage
+            // foto
             // 
-            this.fotoImage.Location = new System.Drawing.Point(20, 277);
-            this.fotoImage.Name = "fotoImage";
-            this.fotoImage.Size = new System.Drawing.Size(78, 59);
-            this.fotoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.fotoImage.TabIndex = 17;
-            this.fotoImage.TabStop = false;
+            this.foto.HeaderText = "foto";
+            this.foto.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.foto.Name = "foto";
+            this.foto.ReadOnly = true;
             // 
-            // label9
+            // name
             // 
-            this.label9.BackColor = System.Drawing.Color.Gainsboro;
-            this.label9.Location = new System.Drawing.Point(-3, 6);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(222, 70);
-            this.label9.TabIndex = 18;
+            this.name.HeaderText = "naam";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.name.ToolTipText = "Alle namen in de database";
             // 
-            // label10
+            // price
             // 
-            this.label10.BackColor = System.Drawing.Color.Gainsboro;
-            this.label10.Location = new System.Drawing.Point(-3, 125);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(222, 2);
-            this.label10.TabIndex = 19;
+            this.price.HeaderText = "prijs";
+            this.price.Name = "price";
+            this.price.ReadOnly = true;
+            this.price.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.price.ToolTipText = "Prijzen van producten in database";
             // 
-            // label11
+            // category
             // 
-            this.label11.BackColor = System.Drawing.Color.Gainsboro;
-            this.label11.Location = new System.Drawing.Point(-2, 171);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(222, 2);
-            this.label11.TabIndex = 20;
+            this.category.HeaderText = "categorie";
+            this.category.Name = "category";
+            this.category.ReadOnly = true;
+            this.category.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.category.ToolTipText = "Categoriën van producten in database";
             // 
-            // label12
+            // amount
             // 
-            this.label12.BackColor = System.Drawing.Color.Gainsboro;
-            this.label12.Location = new System.Drawing.Point(-2, 213);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(222, 2);
-            this.label12.TabIndex = 21;
+            this.amount.HeaderText = "aantal";
+            this.amount.Name = "amount";
+            this.amount.ReadOnly = true;
+            this.amount.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.amount.ToolTipText = "De hoeveelheid van een product in database";
+            this.amount.Width = 45;
             // 
-            // label13
+            // remove
             // 
-            this.label13.BackColor = System.Drawing.Color.Gainsboro;
-            this.label13.Location = new System.Drawing.Point(-3, 255);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(222, 2);
-            this.label13.TabIndex = 21;
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.Color.Gainsboro;
-            this.label14.Location = new System.Drawing.Point(-2, 341);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(222, 2);
-            this.label14.TabIndex = 22;
+            this.remove.HeaderText = "verwijder";
+            this.remove.Name = "remove";
+            this.remove.ReadOnly = true;
+            this.remove.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.remove.ToolTipText = "Klik op de knop van het product, in de juiste rij, om het te verwijderen";
+            this.remove.Width = 66;
             // 
             // products
             // 
@@ -472,12 +472,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label errorCheck;
-        private System.Windows.Forms.DataGridViewImageColumn foto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn category;
-        private System.Windows.Forms.DataGridViewTextBoxColumn amount;
-        private System.Windows.Forms.DataGridViewButtonColumn remove;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button fotoInvoegen;
@@ -489,5 +483,11 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.DataGridViewImageColumn foto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn category;
+        private System.Windows.Forms.DataGridViewTextBoxColumn amount;
+        private System.Windows.Forms.DataGridViewButtonColumn remove;
     }
 }
