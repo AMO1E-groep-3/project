@@ -31,8 +31,8 @@
             this.inkoperButton = new System.Windows.Forms.Button();
             this.usersSettingsButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.productSettingsButton = new System.Windows.Forms.Button();
             this.PenningmeesterButton = new System.Windows.Forms.Button();
+            this.productSettingsButton = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,19 +71,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Screens";
             // 
-            // productSettingsButton
-            // 
-            this.productSettingsButton.BackColor = System.Drawing.Color.Tomato;
-            this.productSettingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.productSettingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.productSettingsButton.Location = new System.Drawing.Point(172, 40);
-            this.productSettingsButton.Name = "productSettingsButton";
-            this.productSettingsButton.Size = new System.Drawing.Size(134, 42);
-            this.productSettingsButton.TabIndex = 20;
-            this.productSettingsButton.Text = "Products Settings";
-            this.productSettingsButton.UseVisualStyleBackColor = false;
-            this.productSettingsButton.Click += new System.EventHandler(this.productSettingsButton_Click);
-            // 
             // PenningmeesterButton
             // 
             this.PenningmeesterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(151)))), ((int)(((byte)(77)))));
@@ -96,6 +83,20 @@
             this.PenningmeesterButton.TabIndex = 21;
             this.PenningmeesterButton.Text = "Penningmeester";
             this.PenningmeesterButton.UseVisualStyleBackColor = false;
+            this.PenningmeesterButton.Click += new System.EventHandler(this.PenningmeesterButton_Click);
+            // 
+            // productSettingsButton
+            // 
+            this.productSettingsButton.BackColor = System.Drawing.Color.Tomato;
+            this.productSettingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.productSettingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.productSettingsButton.Location = new System.Drawing.Point(172, 40);
+            this.productSettingsButton.Name = "productSettingsButton";
+            this.productSettingsButton.Size = new System.Drawing.Size(134, 42);
+            this.productSettingsButton.TabIndex = 20;
+            this.productSettingsButton.Text = "Products Settings";
+            this.productSettingsButton.UseVisualStyleBackColor = false;
+            this.productSettingsButton.Click += new System.EventHandler(this.productSettingsButton_Click);
             // 
             // bedrijfsleider
             // 

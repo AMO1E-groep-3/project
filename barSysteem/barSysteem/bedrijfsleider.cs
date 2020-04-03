@@ -69,5 +69,11 @@ namespace barSysteem
             products pr = new products();
             pr.Show();
         }
+
+        private void PenningmeesterButton_Click(object sender, EventArgs e)
+        {
+            PenningMeesterForm form = new PenningMeesterForm();
+            form.Show();
+        }
     }
 }

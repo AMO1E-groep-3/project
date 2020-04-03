@@ -181,3 +181,9 @@ C:\xampp\htdocs\project\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Re
 C:\xampp\htdocs\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
 C:\xampp\htdocs\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
 C:\xampp\htdocs\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
+C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
+C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
+C:\xampp\htdocs\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
