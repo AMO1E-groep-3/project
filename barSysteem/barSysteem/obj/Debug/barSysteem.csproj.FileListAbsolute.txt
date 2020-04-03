@@ -187,3 +187,21 @@ C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
 C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
 C:\xampp\htdocs\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
 C:\xampp\htdocs\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe.config
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\bin\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\bin\Debug\barSysteem.pdb
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.dll
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\bin\Debug\Newtonsoft.Json.xml
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.csprojAssemblyReference.cache
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.bedrijfsleider.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.buyerreceipt.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.mainForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.InkopenForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.LoginScreen.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.PenningMeesterForm.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.products.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.Properties.Resources.resources
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.GenerateResource.cache
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.csproj.CopyComplete
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.exe
+D:\A_ROC\A_PROJECT\Leerjaar 1\Periode 3\barsysteemproject\project\barSysteem\barSysteem\obj\Debug\barSysteem.pdb
