@@ -12,6 +12,8 @@ namespace barSysteem
 {
     public partial class InkopenForm : Form
     {
+        // Comment...
+
         /// <summary>
         /// Test....
         /// </summary>
