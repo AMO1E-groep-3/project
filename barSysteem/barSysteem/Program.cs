@@ -17,7 +17,7 @@ namespace barSysteem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainForm());
+            Application.Run(new Form1());
 
             Category beverages = new Category("Drankjes", 0);
             // beverages.id = 1; (doe dit als je een id bij wilt van de drankjes (beverages))

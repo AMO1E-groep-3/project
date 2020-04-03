@@ -7,81 +7,112 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.IO;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
 
 namespace barSysteem
 {
-    public partial class InkopenForm : Form
+    /// <summary>
+    /// Form1 is actually InkopenForm
+    /// </summary>
+    public partial class Form1 : Form
     {
-        // Comment...
+        // Temporary:
+        private List<Product> products;
 
-        /// <summary>
-        /// Test....
-        /// </summary>
-        public InkopenForm()
+
+        public Form1()
         {
             InitializeComponent();
-            InitializeSupplyDataGridView();
-        }
-
-        public void InitializeSupplyDataGridView()
-        {
-            DataTable table = new DataTable("Products");
             
-            // First add columns
-            //table.Columns.Add("Naam", typeof(string));
-            //table.Columns.Add("Prijs PP", typeof(decimal));
-            //table.Columns.Add("Aantal", typeof(int));
+            products = new List<Product>();
 
-            // Dit is puur om te testen. Deze informatie word later uit een database gehaald
-            //Product a = new Product("Brood", 0, 5.99m);
-            //Product b = new Product("Doos eieren (6 stuks)", 1, 6.99m);
-            //Product c = new Product("Kaas", 2, 2.99m);
-            //Product d = new Product("Appel", 3, 0.99m);
-            //Product e = new Product("Bananen (3 stuks)", 4, 2.99m);
-            //Product f = new Product("Amandelen (200g)", 5, 2.99m);
-
-            //// Add rows
-            //table.Rows.Add(a.displayName, a.price, a.id);
-            //table.Rows.Add(b.displayName, b.price, b.id);
-            //table.Rows.Add(c.displayName, c.price, c.id);
-            //table.Rows.Add(d.displayName, d.price, d.id);
-            //table.Rows.Add(e.displayName, e.price, e.id);
-            //table.Rows.Add(f.displayName, f.price, f.id);
-
-
-            //table.Rows.Add(a.displayName, a.price, a.id);
-            //table.Rows.Add(b.displayName, b.price, b.id);
-            //table.Rows.Add(c.displayName, c.price, c.id);
-            //table.Rows.Add(d.displayName, d.price, d.id);
-            //table.Rows.Add(e.displayName, e.price, e.id);
-            //table.Rows.Add(f.displayName, f.price, f.id);
-            //table.Rows.Add(a.displayName, a.price, a.id);
-            //table.Rows.Add(b.displayName, b.price, b.id);
-            //table.Rows.Add(c.displayName, c.price, c.id);
-            //table.Rows.Add(d.displayName, d.price, d.id);
-            //table.Rows.Add(e.displayName, e.price, e.id);
-            //table.Rows.Add(f.displayName, f.price, f.id);
-            //table.Rows.Add(a.displayName, a.price, a.id);
-            //table.Rows.Add(b.displayName, b.price, b.id);
-            //table.Rows.Add(c.displayName, c.price, c.id);
-            //table.Rows.Add(d.displayName, d.price, d.id);
-            //table.Rows.Add(e.displayName, e.price, e.id);
-            //table.Rows.Add(f.displayName, f.price, f.id);
-
-            dataGridView_voorraad.AllowUserToAddRows = false; // De gebruiker kan niet zomaar de voorraad aanpassen
-            dataGridView_voorraad.AllowUserToDeleteRows = false;
-            dataGridView_voorraad.DataSource = table;
+            // Add mock products
+            GetProductsFromDB();
         }
 
-        private void InkopenForm_Load(object sender, EventArgs e)
+        private void DataGridView_voorraad_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
-        private void receiptFormButton_Click(object sender, EventArgs e)
+        private void DataGridView_voorraad_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            buyerreceipt form = new buyerreceipt();
-            form.Show();
+            DataGridView dataGridView = (DataGridView)sender;
+            int editColumn = 3;
+            int removeColumn = 4;
+
+            DataGridViewRow row = dataGridView.Rows[e.RowIndex];
+            if (row == null)
+                return;
+
+
+            if (e.ColumnIndex == editColumn)
+            {
+                ProductDetails form = new ProductDetails(this, products[e.RowIndex], e.RowIndex);
+                form.Show();
+            }
+            else if(e.ColumnIndex == removeColumn)
+            {
+                if(products[e.RowIndex].Aantal > 0)
+                    products[e.RowIndex].Aantal--;
+            }
+        }
+
+        /// <summary>
+        /// Get products from DB using getSupply.php
+        /// </summary>
+        private void GetProductsFromDB()
+        {
+            string urlAddress = "http://localhost/project/getSupply.php";
+
+            using (WebClient client = new WebClient())
+            {
+                string pageSource = client.DownloadString(urlAddress);
+                var objects = JArray.Parse(pageSource);
+
+                dataGridView_voorraad.Rows.Clear();
+
+                foreach (var item in objects)
+                {
+                    Product product = JsonConvert.DeserializeObject<Product>(item.ToString());
+                    products.Add(product);
+                    dataGridView_voorraad.Rows.Add(product.Name, product.Price, product.Aantal);
+                }               
+            }
+        }
+
+        public void UpdateProductInDataGridView(Product updatedProduct, int rowIndex)
+        {
+            DataGridViewRow row = dataGridView_voorraad.Rows[rowIndex];
+            
+            row.Cells[0].Value = updatedProduct.Name;
+            row.Cells[1].Value = updatedProduct.Price;
+            row.Cells[2].Value = updatedProduct.Aantal;
+        }
+
+        public void UpdateProductsInDB()
+        {
+            string urlAddress = "http://localhost/project/updateSupply.php";
+
+
+            using (WebClient client = new WebClient())
+            {
+                string pageSource = client.DownloadString(urlAddress);
+                var objects = JArray.Parse(pageSource);
+
+                dataGridView_voorraad.Rows.Clear();
+
+                foreach (var item in objects)
+                {
+                    Product product = JsonConvert.DeserializeObject<Product>(item.ToString());
+                    products.Add(product);
+                    dataGridView_voorraad.Rows.Add(product.Name, product.Price, product.Aantal);
+                }
+            }
         }
     }
 }

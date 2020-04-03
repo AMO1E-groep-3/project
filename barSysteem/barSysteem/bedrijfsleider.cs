@@ -60,7 +60,7 @@ namespace barSysteem
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            InkopenForm iF = new InkopenForm();
+            Form1 iF = new Form1();
             iF.Show();
         }
 
